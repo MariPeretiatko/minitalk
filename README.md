@@ -3,13 +3,13 @@
 
 This is a simple client-server communication program in C that allows the client to send a string to the server using signals. The server, upon receiving the string, will print it. The program uses the concept of signals in C for inter-process communication.
 
-#Features
+# Features
 
 - The server is started first and prints its PID upon launch.
 - The client takes two parameters: the server PID and the string to send.
 - The server displays the received string pretty quickly.
  
-#Usage
+# Usage
 
 - Compile and create the executables
   ```
