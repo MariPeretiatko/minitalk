@@ -1,23 +1,15 @@
-# minitalk
+# MiniTalk
 ![last_minitakl](https://github.com/MariPeretiatko/minitalk/assets/83024504/c674a1c7-acdf-471c-baae-d45b90b059a4)
+
 This is a simple client-server communication program in C that allows the client to send a string to the server using signals. The server, upon receiving the string, will print it. The program uses the concept of signals in C for inter-process communication.
 
-**Languages**
-
-[![My Skills](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
-
-**Features**
+#Features
 
 - The server is started first and prints its PID upon launch.
 - The client takes two parameters: the server PID and the string to send.
 - The server displays the received string pretty quickly.
  
-**Resources**
-
-- https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.neutrino_lib_ref/s/sigaction.html
-- https://www.qnx.com/developers/docs/6.5.0SP1.update/com.qnx.doc.neutrino_lib_ref/s/sigaction_struct.html
-
-**Usage**
+#Usage
 
 - Compile and create the executables
   ```
